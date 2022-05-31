@@ -8,7 +8,10 @@ namespace InterviewTest
         
         public static void Main()
         {
-            SearchList.Search();
+            int[] list = {2,7,11,15};
+            int target = 22;
+            
+            SearchList.Search(list, target);
         } 
 
              
@@ -16,7 +19,7 @@ namespace InterviewTest
 
     public class SearchList
     {
-        void Search(int[] lst,int target)
+        void Search(int[] list,int target)
         {
            //Print 2 numbers from lst whoose sum equals to target
         }
